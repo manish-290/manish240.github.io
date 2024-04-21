@@ -4,8 +4,10 @@ s= set()
 #add the elementts to the empty sets
 s.add("Manish")
 #repetitive elements cannot be added twice
-s.add("Manish")
+s.add(1)
 s.add(2)
-s.remove(2)
+s.add(3)
+s.add(4)
+
 
 print(s)
